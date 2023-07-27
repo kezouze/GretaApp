@@ -1,0 +1,185 @@
+<!-- mentionsLegales.xml -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mentions légales"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:gravity="center"
+            android:paddingTop="16dp"
+            android:paddingBottom="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="1. Éditeur de l'application :"
+            android:textColor="@color/primary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nom de l'entreprise/organisation :\nAdresse :\nTéléphone :\nEmail :\nSite Web :"
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="2. Directeur de la publication :"
+            android:textColor="@color/primary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nom :"
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="3. Hébergeur de l'application :"
+            android:textColor="@color/primary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nom de l'entreprise/organisation :\nAdresse :\nTéléphone :\nEmail :\nSite Web :"
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="4. Propriété intellectuelle :"
+            android:textColor="@color/primary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tous les droits de propriété intellectuelle relatifs à cette application (y compris, mais sans s'y limiter, les droits d'auteur, les marques commerciales, les logos, les noms commerciaux et les contenus) appartiennent à [Nom de l'entreprise/organisation] ou à ses concédants de licence. Toute reproduction, distribution, modification ou utilisation non autorisée du contenu de cette application est strictement interdite."
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="5. Collecte et utilisation des données personnelles :"
+            android:textColor="@color/primary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cette application peut collecter et utiliser des données personnelles des utilisateurs dans le cadre de son fonctionnement. Pour plus d'informations sur la collecte, l'utilisation et la protection des données personnelles, veuillez consulter notre politique de confidentialité disponible [lien vers la politique de confidentialité]."
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="6. Cookies :"
+            android:textColor="@color/primary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cette application peut utiliser des cookies pour améliorer l'expérience de l'utilisateur. Les cookies sont de petits fichiers texte placés sur l'appareil de l'utilisateur pour collecter des informations sur son utilisation de l'application. L'utilisateur peut contrôler l'utilisation des cookies via les paramètres de son appareil."
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="7. Liens vers des sites tiers :"
+            android:textColor="@color/primary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cette application peut contenir des liens vers des sites Web ou des services tiers. Nous déclinons toute responsabilité concernant les pratiques de confidentialité ou le contenu de ces sites tiers."
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="8. Responsabilité :"
+            android:textColor="@color/primary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nous nous efforçons de maintenir l'exactitude et la fiabilité des informations fournies dans cette application, mais nous ne pouvons garantir leur exhaustivité et leur exactitude à tout moment. L'utilisation de cette application se fait aux risques de l'utilisateur. Nous ne serons pas responsables des dommages directs, indirects, spéciaux ou consécutifs découlant de l'utilisation de cette application ou de l'impossibilité d'y accéder."
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="9. Modifications des mentions légales :"
+            android:textColor="@color/primary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nous nous réservons le droit de modifier ces mentions légales à tout moment. Toute modification sera publiée dans cette application et prendra effet immédiatement."
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="Date de dernière mise à jour : 27-07-2023"
+            android:textColor="@color/primary"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pour toute question ou demande concernant les mentions légales de cette application, veuillez nous contacter à [adresse email]."
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+    </LinearLayout>
+
+</ScrollView>

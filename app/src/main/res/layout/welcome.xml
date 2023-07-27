@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:weightSum="7">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="2"
+        android:text="@string/title"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="271dp"
+        android:layout_height="8dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="openLink2"
+        android:scaleType="fitCenter"
+        android:src="@drawable/gdls" />
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:onClick="openLink3"
+        android:scaleType="centerInside"
+        android:src="@drawable/greta"
+        android:focusable="true" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="2"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnRedirectToPhotos"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/greta"
+            android:text="@string/photos"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnRedirectToMain"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="@color/greta"
+            android:text="@string/go"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnRedirectToInscription"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/greta"
+            android:text="@string/inscription"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvMentionsLegales"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:onClick="openMentionsLegales"
+        android:text="@string/mentions"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:focusable="true" />
+
+</LinearLayout>

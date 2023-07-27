@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GretaApp</string>
+    <string name="title">Titre Professionnel Développeur Web \net Web Mobile </string>
+    <string name="descr1">Logo GDLS</string>
+    <string name="descr2">Logo Greta</string>
+    <string name="descr3">La formation développeur web et web mobile vous apprendra les compétences essentielles pour créer des applications et des sites web réactifs en utilisant HTML, CSS, JavaScript, et des frameworks populaires tel que CodeIgniter. Vous maîtriserez le développement front-end et back-end ainsi que la conception responsive pour offrir des expériences utilisateur optimales sur différentes plateformes. Rejoignez-nous !
+    </string>
+    <string name="button">Valider</string>
+    <string name="Bienvenue">Bienvenue sur notre quiz !</string>
+    <string name="go">Quizz</string>
+    <string name="photos">Galerie</string>
+    <string name="inscription">Inscription</string>
+    <string name="inscrire">Renseignez vos informations et nous reviendrons vers vous :</string>
+    <string name="mentions">Mentions Légales</string>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/descr3"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnRedirectToInscription"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/greta"
+        android:text="@string/inscription"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:autoStart="true"
+        android:flipInterval="3000"
+        android:inAnimation="@android:anim/slide_in_left"
+        android:outAnimation="@android:anim/slide_out_right"
+        app:layout_constraintTop_toBottomOf="@+id/btnRedirectToInscription"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="greta_entrance"
+            android:padding="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/greta1"
+            app:srcCompat="@drawable/greta1" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="maxence"
+            android:padding="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/maxence"
+            app:srcCompat="@drawable/maxence" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="dev"
+            android:padding="16dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/dev"
+            app:srcCompat="@drawable/dev" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="arthur"
+            android:padding="16dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/arthur"
+            app:srcCompat="@drawable/arthur" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="saint-jean"
+            android:padding="16dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/stjean"
+            app:srcCompat="@drawable/stjean" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="saint-jean"
+            android:padding="16dp"
+            android:layout_marginBottom="15dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/catcomputer"
+            app:srcCompat="@drawable/catcomputer" />
+
+    </ViewFlipper>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
