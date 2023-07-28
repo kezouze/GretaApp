@@ -8,11 +8,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     private ArrayList<Question> questionList;
     public static int score = 0;
     private static TextView scoreTextView;
+
+    private List<Question> randomQuestions;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,8 +27,13 @@ public class MainActivity extends AppCompatActivity {
         questionList = new ArrayList<>();
         initializeQuestions();
 
+        if (randomQuestions == null ) {
+            // on sélectionne 5 questions
+            randomQuestions = selectRandomQuestions(5);
+        }
+
         RecyclerView recyclerView = findViewById(R.id.recyclerView);
-        QuestionAdapter questionAdapter = new QuestionAdapter(questionList);
+        QuestionAdapter questionAdapter = new QuestionAdapter(randomQuestions);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(questionAdapter);
         scoreTextView = findViewById(R.id.scoreTextView);
@@ -89,7 +99,12 @@ public class MainActivity extends AppCompatActivity {
 
         Question question20 = new Question(20, "Quel langage est utilisé pour définir la structure et le contenu d'une page web ?", "HTML", "CSS", "JavaScript", "PHP", 1, 5);
         questionList.add(question20);
+    }
 
+    private List<Question> selectRandomQuestions(int count) {
+        List<Question> copyQuestions = new ArrayList<>(questionList); // Copie de la liste originale
+        Collections.shuffle(copyQuestions);
+        return copyQuestions.subList(0, Math.min(count, copyQuestions.size()));
     }
 
     private void showScore() {
