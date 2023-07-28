@@ -1,12 +1,12 @@
 <resources>
     <string name="app_name">GretaApp</string>
-    <string name="title">Titre Professionnel Développeur Web \net Web Mobile </string>
+    <string name="title">Formation\n\"Titre Professionnel Développeur Web \net Web Mobile\" </string>
     <string name="descr1">Logo GDLS</string>
     <string name="descr2">Logo Greta</string>
     <string name="descr3">La formation développeur web et web mobile vous apprendra les compétences essentielles pour créer des applications et des sites web réactifs en utilisant HTML, CSS, JavaScript, et des frameworks populaires tel que CodeIgniter. Vous maîtriserez le développement front-end et back-end ainsi que la conception responsive pour offrir des expériences utilisateur optimales sur différentes plateformes. Rejoignez-nous !
     </string>
     <string name="button">Valider</string>
-    <string name="Bienvenue">Bienvenue sur notre quiz !</string>
+    <string name="Bienvenue">Bienvenue sur le quiz !</string>
     <string name="go">Quizz</string>
     <string name="photos">Galerie</string>
     <string name="inscription">Inscription</string>
@@ -21,4 +21,5 @@
     <string name="responsabilites">Nous nous efforçons de maintenir l\'exactitude et la fiabilité des informations fournies dans cette application, mais nous ne pouvons garantir leur exhaustivité et leur exactitude à tout moment. L\'utilisation de cette application se fait aux risques de l\'utilisateur. Nous ne serons pas responsables des dommages directs, indirects, spéciaux ou consécutifs découlant de l\'utilisation de cette application ou de l\'impossibilité d\'y accéder.</string>
     <string name="modif">Nous nous réservons le droit de modifier ces mentions légales à tout moment. Toute modification sera publiée dans cette application et prendra effet immédiatement.</string>
     <string name="contact">Pour toute question ou demande concernant les mentions légales de cette application, veuillez nous contacter à contact@gretamarne.com.</string>
+    <string name="rules">Gagnez 5 points pour chaque bonne réponse !</string>
 </resources>
