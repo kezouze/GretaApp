@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
         initializeQuestions();
 
         if (randomQuestions == null ) {
-            // on sélectionne 5 questions
             randomQuestions = selectRandomQuestions(5);
         }
 
@@ -99,6 +98,37 @@ public class MainActivity extends AppCompatActivity {
 
         Question question20 = new Question(20, "Quel langage est utilisé pour définir la structure et le contenu d'une page web ?", "HTML", "CSS", "JavaScript", "PHP", 1, 5);
         questionList.add(question20);
+
+        Question question21 = new Question(21, "Quel langage de programmation est utilisé pour créer des applications mobiles sur la plateforme iOS ?", "Swift", "Java", "Kotlin", "C#", 1, 5);
+        questionList.add(question21);
+
+        Question question22 = new Question(22, "Qu'est-ce que Git ?", "Un langage de programmation", "Un gestionnaire de bases de données", "Un système de contrôle de version", "Un logiciel de traitement de texte", 3, 5);
+        questionList.add(question22);
+
+        Question question23 = new Question(23, "Quel est l'outil principal utilisé pour écrire des requêtes SQL afin de manipuler des bases de données ?", "PhpMyAdmin", "MySQL", "SQLite", "DataGrip", 2, 5);
+        questionList.add(question23);
+
+        Question question24 = new Question(24, "Dans le développement web, quelle technologie est utilisée pour définir la présentation et la mise en forme des pages HTML ?", "XML", "CSS", "JSON", "HTML", 2, 5);
+        questionList.add(question24);
+
+        Question question25 = new Question(25, "Qu'est-ce qu'une boucle en programmation ?", "Un type de variable", "Une instruction pour arrêter l'exécution d'un programme", "Une séquence d'instructions répétée plusieurs fois", "Un type de fichier utilisé pour stocker des données", 3, 5);
+        questionList.add(question25);
+
+        Question question26 = new Question(26, "Quel langage de programmation est souvent utilisé pour le développement d'applications Android ?", "Java", "C#", "Python", "Ruby", 1, 5);
+        questionList.add(question26);
+
+        Question question27 = new Question(27, "Qu'est-ce qu'une clé primaire dans une base de données relationnelle ?", "Une colonne qui contient des valeurs uniques pour chaque enregistrement", "Une colonne qui stocke les valeurs numériques", "Une fonction permettant de trier les enregistrements dans l'ordre décroissant", "Une commande utilisée pour sauvegarder la base de données", 1, 5);
+        questionList.add(question27);
+
+        Question question28 = new Question(28, "Quelle est la différence entre un logiciel open source et un logiciel propriétaire ?", "Les logiciels open source sont gratuits, tandis que les logiciels propriétaires sont payants", "Les logiciels open source peuvent être modifiés et distribués librement, tandis que les logiciels propriétaires ont des restrictions", "Les logiciels open source sont plus sécurisés que les logiciels propriétaires", "Il n'y a aucune différence entre les deux types de logiciels", 2, 5);
+        questionList.add(question28);
+
+        Question question29 = new Question(29, "Qu'est-ce que l'algorithme de tri \"QuickSort\" ?", "Un algorithme de tri basé sur le principe \"diviser pour régner\"", "Un algorithme de tri qui utilise une liste chaînée pour organiser les éléments", "Un algorithme de tri utilisant une approche de tri par sélection", "Un algorithme de tri basé sur le principe de tri à bulles", 1, 5);
+        questionList.add(question29);
+
+        Question question30 = new Question(30, "Qu'est-ce qu'une \"classe\" en programmation orientée objet (POO) ?", "Un sous-programme qui effectue une tâche spécifique", "Un bloc d'instructions regroupées dans une fonction", "Une structure de données permettant de stocker des valeurs de différents types", "Un modèle utilisé pour créer des objets qui possèdent des propriétés et des méthodes", 4, 5);
+        questionList.add(question30);
+
     }
 
     private List<Question> selectRandomQuestions(int count) {
