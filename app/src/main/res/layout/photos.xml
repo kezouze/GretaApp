@@ -49,15 +49,17 @@
             android:adjustViewBounds="true"
             android:contentDescription="greta_entrance"
             android:padding="16dp"
-            android:scaleType="centerInside"
+            android:scaleType="fitCenter"
             android:src="@drawable/greta1"
             app:srcCompat="@drawable/greta1" />
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
             android:adjustViewBounds="true"
             android:contentDescription="maxence"
+            android:cropToPadding="false"
             android:padding="16dp"
             android:scaleType="centerInside"
             android:src="@drawable/maxence"
@@ -69,7 +71,7 @@
             android:adjustViewBounds="true"
             android:contentDescription="dev"
             android:padding="16dp"
-            android:scaleType="fitStart"
+            android:scaleType="fitCenter"
             android:src="@drawable/dev"
             app:srcCompat="@drawable/dev" />
 
@@ -79,7 +81,7 @@
             android:adjustViewBounds="true"
             android:contentDescription="arthur"
             android:padding="16dp"
-            android:scaleType="fitStart"
+            android:scaleType="fitCenter"
             android:src="@drawable/arthur"
             app:srcCompat="@drawable/arthur" />
 
@@ -89,18 +91,18 @@
             android:adjustViewBounds="true"
             android:contentDescription="saint-jean"
             android:padding="16dp"
-            android:scaleType="fitStart"
+            android:scaleType="fitCenter"
             android:src="@drawable/stjean"
             app:srcCompat="@drawable/stjean" />
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
             android:adjustViewBounds="true"
             android:contentDescription="saint-jean"
             android:padding="16dp"
-            android:layout_marginBottom="15dp"
-            android:scaleType="centerInside"
+            android:scaleType="fitCenter"
             android:src="@drawable/catcomputer"
             app:srcCompat="@drawable/catcomputer" />
 

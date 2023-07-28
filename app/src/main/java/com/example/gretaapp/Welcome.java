@@ -60,5 +60,4 @@ public class Welcome extends AppCompatActivity {
         Intent intent = new Intent(Welcome.this, MentionsLegales.class);
         startActivity(intent);
     }
-
 }
